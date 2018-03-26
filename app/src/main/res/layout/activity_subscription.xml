@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="assignments.android.zensar.myinappbilling.activities.InAppProductsActivity">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="@string/sub_plan_head"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18dp" />
+
+    <RelativeLayout
+        android:id="@+id/rlWeek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <View
+            android:id="@+id/viewWeekMarker"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/circular_shape"></View>
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/tvWeeklyPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="@string/one_week_price"
+            android:textColor="@android:color/black"
+            android:textSize="18dp" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/tvWeeklyPrice"
+            android:layout_toRightOf="@+id/viewWeekMarker"
+            android:text="@string/weekly"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="18dp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary"></View>
+
+    <RelativeLayout
+        android:id="@+id/rlOneMonth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <View
+            android:id="@+id/viewMonthMarker"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/circular_yellow"></View>
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/tvMonthlyPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="@string/one_month_price"
+            android:textColor="@android:color/black"
+            android:textSize="18dp" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/tvMonthlyPrice"
+            android:layout_toRightOf="@+id/viewMonthMarker"
+            android:text="@string/one_month"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="18dp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary"></View>
+
+    <RelativeLayout
+        android:id="@+id/rlThreeMonth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <View
+            android:id="@+id/viewThreeMonthsMarker"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/circular_purple"></View>
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/tvThreeMonthlyPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="@string/three_month_price"
+            android:textColor="@android:color/black"
+            android:textSize="18dp" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/tvThreeMonthlyPrice"
+            android:layout_toRightOf="@+id/viewThreeMonthsMarker"
+            android:text="@string/three_month"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="18dp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary"></View>
+
+    <RelativeLayout
+        android:id="@+id/rlSixMonth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <View
+            android:id="@+id/viewSixMonthsMarker"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/circular_orange"></View>
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/tvSixMonthlyPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="@string/six_month_price"
+            android:textColor="@android:color/black"
+            android:textSize="18dp" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/tvSixMonthlyPrice"
+            android:layout_toRightOf="@+id/viewSixMonthsMarker"
+            android:text="@string/six_month"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="18dp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary"></View>
+
+    <RelativeLayout
+        android:id="@+id/rlOneYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <View
+            android:id="@+id/viewOneYearMarker"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/circular_orange"></View>
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/tvOneYearPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="@string/one_year_price"
+            android:textColor="@android:color/black"
+            android:textSize="18dp" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/tvOneYearPrice"
+            android:layout_toRightOf="@+id/viewOneYearMarker"
+            android:text="@string/one_year"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="18dp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary"></View>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="@string/cancel_plan_head"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18dp" />
+</LinearLayout>

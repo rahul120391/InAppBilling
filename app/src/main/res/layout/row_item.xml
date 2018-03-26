@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    >
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/circular_shape"
+        />
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imageView"
+        android:layout_marginLeft="10dp"
+        android:text="name"
+        />
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tvDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imageView"
+        android:layout_below="@+id/tvName"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:text="description"
+        />
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tvPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imageView"
+        android:layout_below="@+id/tvDescription"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:text="Price"
+        />
+    <Button
+        android:id="@+id/btnBuy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvPrice"
+        android:layout_alignParentRight="true"
+        android:text="@string/buy"
+        android:gravity="center"
+        />
+</RelativeLayout>

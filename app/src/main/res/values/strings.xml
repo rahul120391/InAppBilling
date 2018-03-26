@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">MyInAppBilling</string>
+    <string name="base_string">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiIJ0D1enVClj01EACzrFxOAq7EENq8xrfV4sgXW7ZhEDoSalRVzEcFS7kCOM02HM39no9Gk0O9m02CK39Ok10c2SjujLaiGeHFkJkSPh6fensKOrTtxif2GEc9i2ZRsxiUr76RRc8FKE5WdbqIryIwwU73EudXwHJIltp4DZ0+rj/ECqr8F54xRWgXp1P+vpV22mIv3sEf1MOXd9IvdDbAGo3BtTM6+etNeZakkUJP1xTMUX5n0mAh7UXfynDx05ryxgZ0Dcq7Ne9cM6Y+g3J3i+8z2+Nl/VC0vCE3KNutrIK7cQHRLn/k9R5aqzkis+gTynKvQBS5pzrOCxGub/GwIDAQAB
+</string>
+    <string name="buy">Purchase</string>
+    <string name="login">Login</string>
+    <string name="product_list">Product List</string>
+    <string name="purchase_again">Purchase Again</string>
+    <string name="inappproduct">InAppProduct</string>
+    <string name="subscription">Subscriptions</string>
+    <string name="item_already_purchased">Item already purchased</string>
+    <string name="payment_successfull">Payment successfull</string>
+    <string name="payment_cancelled">Payment cancelled</string>
+    <string name="sub_plan_head">Checkout subcription plan to avail new feature</string>
+    <string name="cancel_plan_head">Cancel subscription after purchasing anytime.Go to your play store account and then go to My Subscription to cancel availed subscription.</string>
+    <string name="weekly">1 week</string>
+    <string name="one_month">1 month</string>
+    <string name="three_month">3 month</string>
+    <string name="six_month">6 month</string>
+    <string name="one_year">1 year</string>
+    <string name="one_week_price">10 \u20b9</string>
+    <string name="one_month_price">99 \u20b9</string>
+    <string name="three_month_price">199 \u20b9</string>
+    <string name="six_month_price">299 \u20b9</string>
+    <string name="one_year_price">399 \u20b9</string>
+    <string name="username_error">Please enter username</string>
+    <string name="password_error">Please enter password</string>
+    <string name="network_error">No internet connection</string>
+    <string name="name">Name</string>
+    <string name="desc">Description</string>
+    <string name="download_started">Download started</string>
+    <string name="download_complete">Downloaded successfully, Please check download folder</string>
+</resources>

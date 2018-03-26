@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/dimen_20dp"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:paddingTop="56dp">
+
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/login"
+                android:gravity="center"
+                android:textSize="28dp"
+                android:textColor="@color/disco"
+                />
+
+            <!-- Email Label -->
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="20dp"
+                android:textColorHint="@color/disco"
+                >
+
+                <EditText
+                    android:id="@+id/input_username"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Username"
+                    android:inputType="textEmailAddress"
+                    android:textColor="@color/disco"
+                    android:textColorHint="@color/disco" />
+            </android.support.design.widget.TextInputLayout>
+
+            <!-- Password Label -->
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:textColorHint="@color/disco"
+                >
+
+                <EditText
+                    android:id="@+id/input_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:textColor="@color/disco"
+                    android:textColorHint="@color/disco" />
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:id="@+id/btn_login"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/login_bg"
+                android:padding="12dp"
+                android:text="Login"
+                android:textColor="@color/disco" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <FrameLayout
+        android:id="@+id/flProgressBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:clickable="true">
+
+        <ProgressBar
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"></ProgressBar>
+    </FrameLayout>
+</FrameLayout>
